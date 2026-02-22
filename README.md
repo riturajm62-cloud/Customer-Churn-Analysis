@@ -12,7 +12,7 @@ This project focuses on identifying the root causes of customer churn for a tele
 
 📁 Project Structure
 1. data/ → Raw and cleaned datasets
-2. excel/ → Excel data cleaning and analysis file
+2. excel/ → Excel data cleaning and dashboard analysis
 3. notebook/ → SQL analysis notebook
 
 📌 Key Analysis Performed
@@ -21,25 +21,26 @@ This project focuses on identifying the root causes of customer churn for a tele
 3. Churn by Customer Tenure
 4. Churn by Monthly Charges
 5. Churn by Internet Service Type
+6. Support Call vs Churn Risk Analysis
 
 📈 Key Findings
 1. Overall churn rate is approximately 34%, indicating a significant retention challenge.
 2. Customers with month-to-month contracts show the highest churn risk.
 3. New customers (0–1 year tenure) have the highest churn rate.
 4. High monthly charge customers exhibit significantly higher churn.
-5. Long-term customers show lower churn, indicating loyalty increases with tenure.
+5. Long-term customers show lower churn, indicating increased loyality over time.
 6. The "3-Call Breaking Point": Churn probability is stable until the 3rd support call, where it spikes to "58%", eventually reaching "100%" by the 8th call.
 7. Contract Risk: Month-to-month subscribers churn at (43.2%), more than double the rate of annual subscribers (20.9%).
-8. Payment Friction: Customers using manual payment methods (Electronic Checks) exhibit higher churn compared to those on Auto-pay.
+8. Payment Friction: Customers using manual payment methods (Electronic Checks) exhibit higher churn compared to  Auto-pay users.
 
 💡 Business Recommendations
 1. Introduce loyalty programs for new customers.
 2. Encourage long-term contracts to reduce churn.
 3. Review pricing strategy for high monthly charge customers.
 4. Improve onboarding and early customer engagement.
-5. The "Two-Strike" Rule: Implement an automated escalation trigger for any customer on their 2nd support call to prevent them from reaching the "3-call" churn threshold.
-6. Contract Migration: Incentivize month-to-month users to switch to 1-year plans at the 6-month mark via targeted loyalty discounts.
-7. Auto-pay Drive: Offer small monthly credits to transition "Electronic Check" users to automated credit card billing.
+5. Implement a "Two-Strike" escalation rule: Implement an automated escalation trigger for any customer on their 2nd support call to prevent them from reaching the "3-call" churn threshold.
+6.  Incentivize contract migration from month -to-month to yearly plans.
+7. Promote Auto-pay adotion through small billing incentives.
 
 📂 Dataset and Data Lifecycle
 
@@ -52,17 +53,19 @@ This project focuses on identifying the root causes of customer churn for a tele
 * Created `Tenure_Group` categories to identify risk levels across different stages of the customer lifecycle.
 * Calculated churn percentages across multiple dimensions using Pivot Tables.
 * The dataset includes raw customer churn data and a cleaned version used for SQL and analytical modeling (Source Of raw data Kaggle.)
-Dataset has more than 20,000 rows.
+Dataset has more than 20,000 rows (raw + cleaned version included).
 3. Visualization & Dashboarding
-* Built an interactive dashboard featuring Slicers for dynamic filtering (e.g., by Payment Method).
+* Built an interactive dashboard featuring Slicers for dynamic filtering.
 * Created a Smoothed Line Chart to visualize the non-linear relationship between support calls and churn.
 * Designed an "Insights Summary" sheet within Excel for stakeholder reporting.
-<img width="1652" height="993" alt="Picture1" src="https://github.com/user-attachments/assets/86871c61-ff67-420f-ae9c-e47b05e98d1f" />
 
-<img width="1653" height="993" alt="Picture2" src="https://github.com/user-attachments/assets/d5e3d20e-2f2f-4217-a7b6-b188fa29d0a2" />
-<img width="336" height="453" alt="stats3" src="https://github.com/user-attachments/assets/0646beeb-cf11-4a1e-8c79-755bbdacdd71" />
-<img width="297" height="152" alt="Stats2" src="https://github.com/user-attachments/assets/fdb73a84-72e8-4ad8-af2c-5fd428ae5e70" />
-<img width="317" height="284" alt="stats1" src="https://github.com/user-attachments/assets/39eb4056-a2b9-418f-8629-1e2c70cab986" />
+(Charts available in the visuals section of this repository)
+
+📊 Key Visualizations
+1.Churn by contract Type
+<img width="1652" height="993" alt="churn_contract_analysis" src="https://github.com/user-attachments/assets/344ff094-7a97-41f3-b9b0-84efc9c87e4c" />
+2.Support Call vs Churn Risk
+<img width="1653" height="993" alt="support_call_vs_churn" src="https://github.com/user-attachments/assets/390e7b30-c002-4d32-a500-914d3fd7f37e" />
 
 
 👤 Author
