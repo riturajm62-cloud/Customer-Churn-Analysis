@@ -1,7 +1,7 @@
 Customer Churn Analysis (End-to-End Data Analytics Project)
 
 📊 Project Overview
-This project focuses on identifying the root causes of customer churn for a telecommunication provider.By analyzing customer behaviour, contract types, and support interactions.I identified key "breaking points" where customers are more likely to leave and developed actionable strategies to improve reention.
+This project focuses on identifying the root causes of customer churn for a telecommunication provider.By analyzing customer behaviour, contract types, and support interactions.I identified key "breaking points" where customers are more likely to leave and developed actionable strategies to improve retention.
 
 🛠️ Tools & Technologies Used
 1. Excel (Data Cleaning ,Pivot Tables, Dashboarding and Initial Analysis)
@@ -37,6 +37,9 @@ This project focuses on identifying the root causes of customer churn for a tele
 2. Encourage long-term contracts to reduce churn.
 3. Review pricing strategy for high monthly charge customers.
 4. Improve onboarding and early customer engagement.
+5. The "Two-Strike" Rule: Implement an automated escalation trigger for any customer on their 2nd support call to prevent them from reaching the "3-call" churn threshold.
+6. Contract Migration: Incentivize month-to-month users to switch to 1-year plans at the 6-month mark via targeted loyalty discounts.
+7. Auto-pay Drive: Offer small monthly credits to transition "Electronic Check" users to automated credit card billing.
 
 📂 Dataset and Data Lifecycle
 
@@ -57,6 +60,10 @@ Dataset has more than 20,000 rows.
 <img width="1652" height="993" alt="Picture1" src="https://github.com/user-attachments/assets/86871c61-ff67-420f-ae9c-e47b05e98d1f" />
 
 <img width="1653" height="993" alt="Picture2" src="https://github.com/user-attachments/assets/d5e3d20e-2f2f-4217-a7b6-b188fa29d0a2" />
+<img width="336" height="453" alt="stats3" src="https://github.com/user-attachments/assets/0646beeb-cf11-4a1e-8c79-755bbdacdd71" />
+<img width="297" height="152" alt="Stats2" src="https://github.com/user-attachments/assets/fdb73a84-72e8-4ad8-af2c-5fd428ae5e70" />
+<img width="317" height="284" alt="stats1" src="https://github.com/user-attachments/assets/39eb4056-a2b9-418f-8629-1e2c70cab986" />
+
 
 👤 Author
 Ritu Raj  
